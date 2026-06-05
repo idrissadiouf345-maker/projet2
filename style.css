@@ -36,7 +36,7 @@ nav{
     background-color: #FF6600;
     text-align: center;
     border-radius: 24px;
-    margin: 30px 180px;
+    margin: 30px 100px;
     padding: 20px 40px; 
     height: 400px;   
 }
@@ -68,16 +68,24 @@ nav{
     width: 100%;
 }
 .marche, .ce{
-    margin: 30px 180px;
+    margin: 0px 100px;
 }
 .left, .right2{
     flex: 1;
+    
+}
+.left{
+    margin-top: 80px;
+}
+.right2{
+    margin-top: 60px;
 }
 .item1, .item2, .item3, .item4{
 border: 1px solid #FF6600;
-padding: 15px;
+padding: 25px;
 border-radius: 6px;
-margin: 8px 180px;
+margin: 12px 100px;
+margin-right: 30px;
 }
 .right, .left2{
     background-image: url(tempImageQ3pZXy\ 1.png);
@@ -85,8 +93,12 @@ margin: 8px 180px;
     background-size: ;
     background-repeat: no-repeat;
 }
-img{
-    
+.femme{
+    margin-left: 100px;
+    margin-bottom: 150px;
+}
+.homme{
+    margin-bottom: 150px;
 }
 .la{
     display: flex;
@@ -94,9 +106,10 @@ img{
 }
 .itemA, .itemB, .itemC, .itemD{
 border: 1px solid #FF6600;
-padding: 15px;
+padding: 25px;
 border-radius: 6px;
-margin: 8px 180px;
+margin: 12px 100px;
+margin-left: 30px;
 }
 .container2{
     display: flex;
@@ -105,52 +118,58 @@ margin: 8px 180px;
     justify-content: center;
     background-color: #FF6600;
     border-radius: 24px;
-    height: 300px;
-    margin: 20px 180px;
-    padding: 30px 40px 10px;
+    height: 500px;
+    margin: 1px 100px;
     color: white;
     position: relative;
 }
 .container2 h1{
     background-color: #3b2401;
     position: relative;
-    padding: 10px 20px;
+    padding: 10px 40px;
     border-radius: 6px;
 }
 .UL1{
     background-color: #f37d46;
     position: relative;
-    padding: 30px 40px;
+    padding: 40px 65px;
     border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    line-height: 2;
 }
 .UL2{
 position: absolute;
-right: 580px;
-bottom: 100px;
+right: 170px;
+bottom: 90px;
 
 }
 .container2 p{
 background-color: white;
 color: #F26522;
 position: relative;
-padding: 7px 20px;
+padding: 20px 60px;
 border-radius: 6px;
-margin: 30px;
 }
 .container3{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 30px 100px;
-    padding: 30px 40px;
+    margin: 1px 50px;
+    padding:30px 40px;
+}
+.de{
+    margin: 20px 100px;
+    margin-top: 100px;
 }
 .left3, .right3{
     border: 1px solid orange;
-    padding: 50px 100px 50px 50px;
+    padding: 50px 80px 50px 50px;
     border-radius: 15px;
     background-color: rgb(248, 244, 238);
     width: 700px;
-    height: 400px;
+    height: 300px;
+    margin: 30px;
 }
 .container4{
     background-color: #F26522;
@@ -158,56 +177,52 @@ margin: 30px;
     align-items: center;
     justify-content: center;
     padding: 200px;
-    height: 450px;
+    height: 20px;
+    margin-bottom: 50px;
 }
 .blanc{
     background-color: white;
     width: 400px;
-    height: 210px;
-    margin: 10px 10px 10px 10px;
+    height: 160px;
+    margin: 10px;
     padding: 30px;
+    border-radius: 10px;
 }
 .orange{
     background-color: #F26522;
     color: white;
-    margin: 10px;
-    width: 50px;
+    margin: 10px 20px;
+    width: 60px;
     height: 40px;
     padding: 10px;
+    border-radius: 10px;
 }
 .container5{
     background-color: #f9f9f9 ;
     width: 1,500px;
     height: 371px;
-    margin: 90px 110px 90px;
+    margin: 50px 110px 50px;
     padding: 40px;
     display: flex;
     align-items: center;
-    justify-content: center;
-}
-.reserve{
-    margin-top: 30px;
-}
-.bord{
-    margin: 20px;
-    line-height: 3;
-    flex: 1;
-}
-.menu{
-    flex: 1;
-    margin: 20px;
-}
-.col{
-margin: 30px;
+    justify-content: space-around;
 
 }
+.bord{
+    line-height: 2;
+    margin-right: 100px;
+}
+.menu{
+   margin-bottom: 70px; 
+   margin-left: 100px;
+}
 .diag{
-    background-image: linear-gradient(orange,black);
+   background-image: linear-gradient(to right, #FF6600,#42210B);
    color: white;
-   padding: 20px;
-   width: 300px;
-   height: 52px;
-   margin:30px;
+   padding: 10px;
+   width: 200px;
+   text-align: center;
+   border-radius: 6px;
 }
 .trait-vertical{
 width: 2px;
@@ -217,41 +232,87 @@ flex-shrink: 0;
 }
 .container6{
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    margin: 70px 150px;
-    }
+    justify-content: space-between;
+
+}
 .UL3{
 line-height: 2;
+margin: 20px 120px ;
 }  
 .Frame{
-    padding-left: 800px;
+    margin: 30px 300px;
 }
 .container7{
     display: flex;
-    padding: 80px;
+    padding: 50px;
     gap: 40px;
+    margin: 0px 50px;
 }
 .lor{
-    background-color: #f8f8f8 ;
-    border-radius: 6px;
-    width: 400px;
-    height: 350px;
-    padding: 30px;
-
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    gap: 20px;
+    text-align: justify;
 }
 .trait-horizontal{
-    /* width: 340px;
-height: 0px;
-background-color: #ccc;
-flex-shrink: 0; */
+    height: 2px;
+    background-color:#ccc ;
+    gap: 10px;
 }
-.kh{
-    background-color: #F26522;
-    padding: 30px;
-     width: 400px;
-    height: 350px 350px 350px 350px;
+.sil{
+    margin-top: 100px;
+}
+.sect{
+     width:1,728px;
+     height: 300px;
+    display: flex;
+}
+section{
+    background-color:#FF6600;
+}
+.icone{
+    color: white;
+    padding-left: 40px;
+    line-height: 1.8;
+}
 
-
-    
+.cont{
+    margin-left: 400px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+form{
+    margin-top: 20px;
+    margin-left: 400px;
+    gap: 10px;
+    display:grid; 
+    grid-template-columns:1fr 1fr ;
+}
+input{
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 170px;
+    font-size: 8px;
+}
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 170px;
+    font-size: 9px;
+    color: white;
+    background-color: #42210B;
+    grid-column: 2;
+}
+label{
+    color: white;
+    font-size: 10px;
+}
+.color{
+    background-color: #FF6600;
+    padding: 11px;
+    border-radius: 6px 6px 0px 0px;
 }
